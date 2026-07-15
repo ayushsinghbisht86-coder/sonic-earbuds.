@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Account · SonicBuds</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">SONIC<span class="accent">BUDS</span></a>
+    <nav class="nav-links">
+      <a href="product.html">Product</a>
+      <a href="about.html">Our Story</a>
+      <a href="account.html">Account</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="account.html" class="icon-btn" aria-label="Account">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+      </a>
+      <button class="icon-btn" id="cartBtn" aria-label="Cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="cart-badge" id="cartBadgeNav">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="account-wrap">
+  <div class="account-head">
+    <div>
+      <p class="eyebrow">Welcome back</p>
+      <h1>Hey, Alex</h1>
+    </div>
+    <button class="btn-ghost text-sm">Sign out</button>
+  </div>
+
+  <div class="account-grid">
+    <nav class="account-nav glass">
+      <button class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M3 7l2-4h14l2 4"/><path d="M9 11a3 3 0 0 0 6 0"/></svg>Orders</button>
+      <button><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-7.5 8-13a8 8 0 0 0-16 0c0 5.5 8 13 8 13Z"/><circle cx="12" cy="9" r="3"/></svg>Addresses</button>
+      <button><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>Payment</button>
+      <button><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"/></svg>Settings</button>
+    </nav>
+
+    <div class="account-main">
+      <div class="orders-panel glass">
+        <div class="h">Recent orders</div>
+        <div class="order-card2">
+          <div class="thumb"><img src="product ear.png" alt=""></div>
+          <div class="info">
+            <div class="name">SonicBuds Pro</div>
+            <div class="meta">#SB-10428 · Jul 10, 2026</div>
+            <div class="status"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Delivered</div>
+          </div>
+          <div class="right">
+            <div class="total">$129</div>
+            <button class="track">Track</button>
+          </div>
+        </div>
+        <div class="order-card2">
+          <div class="thumb"><img src="product ear.png" alt=""></div>
+          <div class="info">
+            <div class="name">SonicBuds Pro</div>
+            <div class="meta">#SB-09211 · May 02, 2026</div>
+            <div class="status"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Delivered</div>
+          </div>
+          <div class="right">
+            <div class="total">$258</div>
+            <button class="track">Track</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="account-cards2">
+        <div class="account-card2 glass">
+          <div class="h">Default address</div>
+          <div class="body">Alex Chen<br>145 Beat St, Apt 4<br>Brooklyn, NY 11215</div>
+        </div>
+        <div class="account-card2 glass">
+          <div class="h">Payment on file</div>
+          <div class="body">Visa ending 4242</div>
+          <div class="sub">Expires 08/28</div>
+        </div>
+      </div>
+
+      <a href="product.html" class="btn-electric" style="display:inline-flex;font-size:0.875rem;">Reorder SonicBuds Pro</a>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">SONIC<span style="color:var(--electric)">BUDS</span></div>
+      <p>Wireless freedom. Premium sound. Engineered for those who feel every beat.</p>
+    </div>
+    <div class="footer-col">
+      <div class="h">Shop</div>
+      <ul>
+        <li><a href="product.html">SonicBuds Pro</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="account.html">My Account</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <div class="h">Company</div>
+      <ul>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Warranty</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 SonicBuds. Feel every beat.</div>
+</footer>
+
+<div class="overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer">
+  <div class="cart-drawer-head">
+    <div class="title">Your Cart</div>
+    <button id="drawerClose" aria-label="Close cart">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="cart-drawer-body" id="drawerBody"></div>
+  <div class="cart-drawer-footer" id="drawerFooter"></div>
+</aside>
+
+<script src="cart.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

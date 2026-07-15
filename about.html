@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Story · SonicBuds</title>
+<meta name="description" content="SonicBuds was built by audiophiles who refused to pick between price, sound and design.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">SONIC<span class="accent">BUDS</span></a>
+    <nav class="nav-links">
+      <a href="product.html">Product</a>
+      <a href="about.html">Our Story</a>
+      <a href="account.html">Account</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="account.html" class="icon-btn" aria-label="Account">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+      </a>
+      <button class="icon-btn" id="cartBtn" aria-label="Cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="cart-badge" id="cartBadgeNav">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="about-hero" id="aboutHero">
+    <div class="hero-media">
+      <img src="heroic image.png" alt="">
+    </div>
+    <div class="grad"></div>
+    <div class="about-hero-content">
+      <div class="inner">
+        <p class="eyebrow">Our Story</p>
+        <h1>Built by people who <span class="text-gradient">refused to compromise.</span></h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-body">
+    <p class="reveal">SonicBuds started in a small studio at 2 AM. Three engineers, two audiophile friends, and one shared frustration: everything on the market forced a compromise.</p>
+    <p class="reveal">You either paid a premium for a name, or accepted plastic sound and dropped calls. There was no middle. So we built the middle — and made it better than the top.</p>
+    <p class="strong reveal">Every SonicBud is tuned by human ears — not just software. Every case is engineered to survive years of pocket abuse. Every mic is trained on real-world noise, not sterile labs.</p>
+  </section>
+
+  <section class="about-grid2">
+    <div class="img1 reveal"><img src="product ear.png" alt=""></div>
+    <div class="img2 reveal"><img src="product earbud.png" alt=""></div>
+  </section>
+
+  <section class="about-stats">
+    <div class="reveal"><div class="k text-gradient">2M+</div><div class="v">Buds shipped</div></div>
+    <div class="reveal"><div class="k text-gradient">94</div><div class="v">Countries</div></div>
+    <div class="reveal"><div class="k text-gradient">4.9★</div><div class="v">Verified rating</div></div>
+  </section>
+
+  <section class="about-cta">
+    <a href="product.html" class="btn-electric reveal">Try SonicBuds Pro →</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">SONIC<span style="color:var(--electric)">BUDS</span></div>
+      <p>Wireless freedom. Premium sound. Engineered for those who feel every beat.</p>
+    </div>
+    <div class="footer-col">
+      <div class="h">Shop</div>
+      <ul>
+        <li><a href="product.html">SonicBuds Pro</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="account.html">My Account</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <div class="h">Company</div>
+      <ul>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Warranty</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 SonicBuds. Feel every beat.</div>
+</footer>
+
+<div class="overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer">
+  <div class="cart-drawer-head">
+    <div class="title">Your Cart</div>
+    <button id="drawerClose" aria-label="Close cart">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="cart-drawer-body" id="drawerBody"></div>
+  <div class="cart-drawer-footer" id="drawerFooter"></div>
+</aside>
+
+<script src="cart.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
